@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: -moz-linear-gradient(100vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   }
+   
+   .container{
+     background: white;
+     border-radius: 10px;
+     width: 90px;
+     box-shadow: 5px;
+     padding: 15px;
+   }
+   
+   button{
+     padding: 10px;
+     margin-bottom: auto;
+     cursor: pointer;
+   border-radius: 10px;
+   }
+   
+   button:hover{
+     background-color: aqua;
+   } 
+      
+   #result{
+     margin-top: auto;
+     color: green;
+     font-size: 20px;
+   }
